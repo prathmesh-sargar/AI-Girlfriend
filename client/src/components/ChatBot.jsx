@@ -24,7 +24,7 @@ const ChatBot = () => {
 //   };
 
     try {
-      const response = await axios.post('https://ai-girlfriend-backend.vercel.app/api/chat', {
+      const response = await axios.post('https://ai-girlfriend-backend-fvvt.onrender.com//api/chat', {
         userMessage: userInput,
       });
 
