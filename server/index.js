@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 // Enable CORS
 app.use(cors({
-  origin: 'http://localhost:5173', // Replace with your frontend origin
+  origin: 'https://ai-girlfriend-eta.vercel.app/', // Replace with your frontend origin
   methods: ['POST'],
   credentials: true
 }));
