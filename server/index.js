@@ -9,13 +9,13 @@ const PORT = process.env.PORT || 5000;
 
 
 // Enable CORS
-// app.use(cors({
-//   origin: 'https://ai-girlfriend-eta.vercel.app/', // Replace with your frontend origin
-//    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-//   credentials: true,
-// }));
+app.use(cors({
+  origin: 'https://ai-girlfriend-eta.vercel.app/', // Replace with your frontend origin
+   methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true,
+}));
 
-app.options('*', cors());
+// app.options('*', cors());
 
 
 app.use(express.json())
